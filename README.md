@@ -1,5 +1,5 @@
 # Test pileup
-
+```
 /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-wm-tools/201113/bin/cmssw_handle_pileup.py --input_pkl PSet.pkl --output_pkl PSet_output.pkl --pileup_dict pileupconf.json
 Processing PreMixingModule mixData type mc
 Traceback (most recent call last):
@@ -14,3 +14,4 @@ Traceback (most recent call last):
   File "/cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-wm-tools/201113/bin/cmssw_handle_pileup.py", line 62, in process_pileup_mixing_modules
     eventsAvailable = pileupDict[pileupType]["eventsAvailable"]
 KeyError: 'eventsAvailable'
+```
